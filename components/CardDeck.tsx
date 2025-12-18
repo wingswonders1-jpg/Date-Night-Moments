@@ -201,3 +201,14 @@ export const CardDeck: React.FC = () => {
         >
           <ChevronRight className="w-8 h-8" />
         </button>
+      </div>
+
+      {/* Aesthetic Branding Footer */}
+      <div className="shrink-0 pt-1 pb-2">
+        <p className="text-rose-400/30 text-[9px] font-black uppercase tracking-[0.5em] animate-pulse">
+          Elysian Moments • Edition I
+        </p>
+      </div>
+    </div>
+  );
+};
